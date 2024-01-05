@@ -1,0 +1,32 @@
+{
+  "name": "lunar-permission",
+  "version": "1.0.0",
+  "description": "Allow to define and apply permission easy, reausable and manageable",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dominica-pudding/lunar-permission.git"
+  },
+  "keywords": [
+    "Role",
+    "Permission",
+    "Javascript",
+    "Angular"
+  ],
+  "author": "Luc Nguyen <dominica.pudding@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominica-pudding/lunar-permission/issues"
+  },
+  "homepage": "https://github.com/dominica-pudding/lunar-permission#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
